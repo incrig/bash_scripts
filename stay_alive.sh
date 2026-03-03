@@ -28,3 +28,5 @@ pip3 install --upgrade pip pyautogui
 cat <<EOF >~/python/runner.sh
 source ~/python/app/bin/activate && python ~/python/app
 EOF
+
+chmod +x ~/python/runner.sh
