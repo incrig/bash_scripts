@@ -15,7 +15,7 @@ try:
         pyautogui.moveTo(x, y, duration=0.1)
 
         # Wait for a few seconds before repeating
-        time.sleep(250)
+        time.sleep(random.uniform(60, 300))
 except KeyboardInterrupt:
     print("Mouse controls stopped.")
 EOF
